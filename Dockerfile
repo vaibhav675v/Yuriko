@@ -69,7 +69,7 @@ RUN git clone -b master https://github.com/TeamDeeCode/Yuriko /root/Yuriko
 WORKDIR /root/Yuriko
 
 #Copy config file to /root/Yuriko/Yuriko
-COPY ./Yuriko/sample_config.py ./Yuriko/config.py* /root/Yuriko/Yuriko/
+COPY ./Yuriko/config.py* /root/Yuriko/Yuriko/
 
 ENV PATH="/home/bot/bin:$PATH"
 

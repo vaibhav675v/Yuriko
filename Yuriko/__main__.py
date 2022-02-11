@@ -127,7 +127,7 @@ HELP_STRINGS = """
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- @PiroXPower's 💕"""
+ @Mr_Abhi_XD's 💕"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -380,8 +380,8 @@ def yurikorobot_about_callback(update, context):
     query = update.callback_query
     if query.data == "yurikorobot_":
         query.message.edit_text(
-            text=""" *YURIKO* - `A bot to manage your groups with additional features!`
-            \n`Here the basic help regarding use of yurikorobot.`
+            text=""" *VEXERA* - `A bot to manage your groups with additional features!`
+            \n`Here the basic help regarding use of VEXERAROBOT.`
             
             \n`Almost all modules usage defined in the help menu, checkout by sending` `/help`
             \n`Report error/bugs click the Button`""",
@@ -532,7 +532,7 @@ def yurikorobot_about_callback(update, context):
         )
     elif query.data == "yurikorobot_credit":
         query.message.edit_text(
-            text=f"<b> CREDIT FOR YURIKO DEV'S</b>\n"
+            text=f"<b> CREDIT FOR VEXERA DEV'S</b>\n"
             
             f"\n`✗ Here Some Developers Helping in Making The Yuriko Bot`",
             parse_mode=ParseMode.HTML,
@@ -544,7 +544,7 @@ def yurikorobot_about_callback(update, context):
                  ],
                  [
                     InlineKeyboardButton(text="Sʜᴜʙʜᴀɴꜱʜᴜ", url="t.me/Shubhanshutya"),
-                    InlineKeyboardButton(text="ᴛᴇᴀᴍ ᴠᴇxᴇʀᴀ", url="https://github.com/evexera"),
+                    InlineKeyboardButton(text="ᴛᴇᴀᴍ ᴠᴇxᴇʀᴀ", url="https://t.me/Mr_Abhi_XD"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="yurikorobot_basichelp"),

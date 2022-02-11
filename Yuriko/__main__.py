@@ -236,10 +236,10 @@ def start(update: Update, context: CallbackContext):
                     escape_markdown(uptime),
                     sql.num_users(),
                     sql.num_chats()),                        
-                reply_markup=InlineKeyboardMarkup(buttons),
-                parse_mode=ParseMode.MARKDOWN,
-                timeout=60,
-                disable_web_page_preview=False,
+            reply_markup=InlineKeyboardMarkup(buttons),
+            parse_mode=ParseMode.MARKDOWN,
+            timeout=60,
+            disable_web_page_preview=False,
             )
     else:
         update.effective_message.reply_photo(

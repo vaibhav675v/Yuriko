@@ -99,7 +99,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="Aꜱꜱɪꜱᴛᴀɴᴛ", callback_data="yurikorobot_asst"),
-        InlineKeyboardButton(text="Iɴʟɪɴᴇ", switch_inline_query_current_chat="),
+        InlineKeyboardButton(text="Iɴʟɪɴᴇ", switch_inline_query_current_chat=""),
     ],
     [
         InlineKeyboardButton(text="Aʙᴏᴜᴛ", callback_data="yurikorobot_"),
